@@ -3,9 +3,9 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         //задача 1
-        int [] massive = new int[]{1,2,3};
-        double [] massive2 = {1.57,7.654,9.986};
-        int [] box = {5,534,-543,542};
+        int[] massive = new int[]{1, 2, 3};
+        double[] massive2 = {1.57, 7.654, 9.986};
+        int[] box = {5, 534, -543, 542};
 
         //задача 2
         System.out.println(Arrays.toString(massive));
@@ -37,8 +37,8 @@ public class Main {
 
         //задача 4
         for (int i = 0; i < massive.length; i++) {
-            if (massive[i]%2 != 0) {
-                massive[i]+=1;
+            if (massive[i] % 2 != 0) {
+                massive[i] += 1;
             }
             if (i == massive.length - 1) {
                 break;
